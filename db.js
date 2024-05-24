@@ -2,7 +2,8 @@ const mongoose= require('mongoose')
 
 // define the mongodb connection url
 
- const mongoURL='mongodb://127.0.0.1:27017/helloworld';
+  const mongoURL= "mongodb+srv://shubham21881:Shubham21881@cluster0.4jb2omu.mongodb.net/"
+
  mongoose.connect(mongoURL,{
     // useNewUrlParser:true,
     // useUnifiedTopology:true
